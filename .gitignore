@@ -39,13 +39,7 @@ pids
 /server/uploads/stickers/*
 !/server/uploads/stickers/.gitkeep
 
-# Allow project screenshots and assets
-!telegram-web-clone.jpeg
-!screenshots/*.png
-!screenshots/*.jpg
-!screenshots/*.jpeg
-
-# Block user uploaded images
+# Block user uploaded images first
 *.png
 *.jpg
 *.jpeg
@@ -54,6 +48,12 @@ pids
 *.bmp
 *.tiff
 *.svg
+
+# Then allow project screenshots and assets (must come after the block rules)
+!telegram-web-clone.jpeg
+!screenshots/*.png
+!screenshots/*.jpg
+!screenshots/*.jpeg
 
 # User data and sessions
 sessions/
