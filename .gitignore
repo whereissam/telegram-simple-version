@@ -38,6 +38,14 @@ pids
 !/server/uploads/stickers/
 /server/uploads/stickers/*
 !/server/uploads/stickers/.gitkeep
+
+# Allow project screenshots and assets
+!telegram-web-clone.jpeg
+!screenshots/*.png
+!screenshots/*.jpg
+!screenshots/*.jpeg
+
+# Block user uploaded images
 *.png
 *.jpg
 *.jpeg

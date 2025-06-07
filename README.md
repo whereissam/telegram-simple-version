@@ -2,6 +2,10 @@
 
 A simple real-time messaging application inspired by Telegram, built with React and Node.js.
 
+![Telegram Clone Screenshot](telegram-web-clone.jpeg)
+
+*Live demo of the Telegram clone with real-time messaging, custom stickers, and modern UI*
+
 ## Features
 
 - **Real-time messaging** with Socket.io
@@ -104,6 +108,19 @@ telegram-clone/
 ### Message Encryption
 1. Toggle encryption on/off in the chat header
 2. Encrypted messages show a lock icon (🔒)
+
+## Screenshots
+
+### Main Interface
+![Telegram Clone Interface](telegram-web-clone.jpeg)
+
+The screenshot shows the main features of the application:
+- **Real-time chat interface** with modern Telegram-like design
+- **Custom sticker management** with emoji overlays and pack switching
+- **Image sharing capabilities** with inline display
+- **User list sidebar** showing online participants
+- **Message encryption toggle** in the header
+- **Clean, responsive UI** that works across devices
 
 ## Configuration
 
